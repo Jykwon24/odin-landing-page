@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-container {
+  margin: 0;
+  background-color: #1f2937;
+}
