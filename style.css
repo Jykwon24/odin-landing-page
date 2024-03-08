@@ -11,13 +11,36 @@ header {
   justify-content: space-between;
 }
 
+h1, h3 {
+  margin: 0;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: white;
+  margin: 10px;
 }
 
 .header-container {
   color: white;
   margin: 0;
   background-color: #1f2937;
+  padding: 20px 150px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.header-title > div {
+  max-width: 350px;
 }
