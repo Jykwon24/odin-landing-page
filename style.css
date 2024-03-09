@@ -11,6 +11,15 @@ header {
   justify-content: space-between;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight:bolder;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 h1, h3 {
   margin: 0;
 }
@@ -20,6 +29,8 @@ button {
   border: none;
   border-radius: 5px;
   color: white;
+  width: 150px;
+  height: 40px;
 }
 
 a {
@@ -28,19 +39,33 @@ a {
   margin: 10px;
 }
 
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
 .header-container {
   color: white;
   margin: 0;
   background-color: #1f2937;
-  padding: 20px 150px;
+  padding: 20px 200px;
 }
 
 .header-title {
   display: flex;
   justify-content: space-between;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 .header-title > div {
-  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+  gap: 10px;
+  max-width: 450px
+}
+
+.container-1 {
+
 }
