@@ -48,7 +48,7 @@ p {
   color: white;
   margin: 0;
   background-color: #1f2937;
-  padding: 20px 200px;
+  padding: 100px 200px;
 }
 
 .header-title {
@@ -61,17 +61,28 @@ p {
 .header-title > div {
   display: flex;
   flex-direction: column;
-justify-content: space-between;
+  justify-content: space-between;
   gap: 10px;
   max-width: 450px
 }
 
 .container-1 {
+  margin: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
 }
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container {
+  max-width: 200px;
+}
+
 .mid-image  {
   margin: 20px;
   border: 5px solid #3882f6;
