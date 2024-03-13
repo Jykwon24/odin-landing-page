@@ -77,14 +77,44 @@ p {
 .container-2 {
   display: flex;
   justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .img-container {
-  max-width: 200px;
+  max-width: 160px;
+  text-align: center;
 }
 
 .mid-image  {
-  margin: 20px;
   border: 5px solid #3882f6;
   border-radius: 10px;
+}
+
+.body-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 120px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+}
+
+.quote-sig {
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #1f2937;
 }
