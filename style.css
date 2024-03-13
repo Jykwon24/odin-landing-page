@@ -95,7 +95,7 @@ p {
 .body-text-container {
   display: flex;
   flex-direction: column;
-  padding: 120px;
+  padding: 120px 300px;
   background-color: #e5e7eb;
 }
 
@@ -117,4 +117,30 @@ p {
   font-style: italic;
   font-weight: bold;
   color: #1f2937;
+}
+
+.bot-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.bot-content-container {
+  background-color: #3882f6;
+  width: 80%;
+  height: 130px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bot-content-container > button {
+  border-color: white;
+  border: solid 2px;
+}
+
+.bot-content-container > div {
+  font-family: sans-serif;
+  color: white;
 }
